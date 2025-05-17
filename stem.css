@@ -111,6 +111,32 @@ footer {
   font-size: 0.9rem;
   color: var(--secondary-color);
 }
+/* Team members container */
+.team-container {
+  display: flex;
+  gap: 2rem;              
+  flex-wrap: wrap;        
+  margin-top: 2rem;
+}
+
+.team-member {
+  text-align: center;
+  max-width: 200px;      
+}
+
+.team-member img {
+  width: 100%;            
+  border-radius: 8px;     
+  display: block;
+  margin-bottom: 0.5rem;  
+
+.team-member i {
+  display: block;
+  font-style: italic;
+  font-weight: 600;
+  color: #004080;  
+}
+
 
 /* ====== Responsive Design ====== */
 @media (max-width: 768px) {
