@@ -6,10 +6,17 @@
 }
 
 body {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
+}
+
+img {
+  width: 600px; /* Set desired width */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Ensures consistent appearance */
+  margin: 10px;
 }
 
 /* Container */
