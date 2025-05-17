@@ -138,14 +138,28 @@ footer {
 }
 /* Member photos */
 main img {
-  width: 250px;       /* Increase this value for bigger images */
-  height: auto;       /* Maintain aspect ratio */
-  border-radius: 8px; /* Optional: soften edges */
+  width: 250px;       /* Bigger size */
+  height: auto;
+  border-radius: 8px;
   margin-bottom: 0.5rem;
   display: block;
   margin-left: auto;
-  margin-right: auto; /* Center images */
+  margin-right: auto;
 }
+
+/* Navigation links spacing */
+nav a {
+  margin: 0 15px;       /* Adds left and right spacing */
+  text-decoration: none;
+  color: #004080;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 
 
 /* ====== Responsive Design ====== */
