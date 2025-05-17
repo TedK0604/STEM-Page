@@ -136,6 +136,16 @@ footer {
   font-weight: 600;
   color: #004080;  
 }
+/* Member photos */
+main img {
+  width: 250px;       /* Increase this value for bigger images */
+  height: auto;       /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: soften edges */
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Center images */
+}
 
 
 /* ====== Responsive Design ====== */
