@@ -80,6 +80,11 @@ footer {
   padding: 2rem 0;
 }
 
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
