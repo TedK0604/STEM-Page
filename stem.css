@@ -84,6 +84,29 @@ div {
   text-align: justify;
   text-justify: inter-word;
 }
+.team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px; /* Optional: adds rounded corners to images */
+}
+
+.member-info h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.member-info p {
+  margin: 5px 0 0 0;
+  font-size: 1em;
+}
+
 
 @media (max-width: 768px) {
   nav ul {
