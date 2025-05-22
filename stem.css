@@ -96,6 +96,9 @@ div {
   margin-right: 20px;
   border-radius: 8px;
 }
+.team-container {
+  text-align: center;
+}
 
 .member-info h2 {
   margin: 0;
