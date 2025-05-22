@@ -97,7 +97,7 @@ div {
   border-radius: 8px;
 }
 .team-container {
-  text-align: center;
+  text-align: center; !important;
 }
 
 .member-info h2 {
