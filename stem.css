@@ -96,8 +96,17 @@ div {
   margin-right: 20px;
   border-radius: 8px;
 }
+
 .team-container {
-  text-align: center; !important;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between photos */
+  flex-wrap: wrap; /* wrap if too many photos */
+}
+
+.team-photo {
+  width: 400px !important;
+  height: auto !important;
 }
 
 .member-info h2 {
