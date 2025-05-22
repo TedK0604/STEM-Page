@@ -100,13 +100,17 @@ div {
 .team-container {
   display: flex;
   justify-content: center;
-  gap: 20px; /* space between photos */
-  flex-wrap: wrap; /* wrap if too many photos */
+  gap: 20px; 
+  flex-wrap: wrap;
 }
 
-.team-photo {
-  width: 400px !important;
-  height: auto !important;
+.teammate {
+  text-align: center;
+}
+
+.teammate img {
+  display: block;
+  margin: 0 auto;
 }
 
 .member-info h2 {
