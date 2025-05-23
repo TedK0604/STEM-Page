@@ -24,9 +24,6 @@ img {
   max-width: 1200px;
   margin: auto;
   padding: 2rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Ensure children (like .team-member) are centered */
 }
 
 header {
@@ -84,27 +81,20 @@ footer {
 }
 
 div {
-
+  text-align: justify;
+  text-justify: inter-word;
 }
-
 .team-member {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin-bottom: 40px;
-  text-align: center;
+  margin-bottom: 20px;
 }
 
 .team-member img {
-  width: 250px;
-  max-width: 90%;
-  height: auto;
-  margin-bottom: 10px;
-  border-radius: 8px;
-}
-
-.member-info {
-  text-align: center;
+  width: 300px; !important;
+  height: auto; !important;
+  margin-right: 20px;
+  border-radius: 8px; 
 }
 
 .member-info h2 {
@@ -117,7 +107,7 @@ div {
   font-size: 1em;
 }
 
-/* Mobile Navigation */
+
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -125,9 +115,5 @@ div {
 
   nav ul li {
     margin: 0.5rem 0;
-  }
-
-  .team-member {
-    padding: 0 1rem;
   }
 }
