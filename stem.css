@@ -24,6 +24,9 @@ img {
   max-width: 1200px;
   margin: auto;
   padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Ensure children (like .team-member) are centered */
 }
 
 header {
@@ -81,15 +84,13 @@ footer {
 }
 
 div {
-  text-align: justify;
-  text-justify: inter-word;
+
 }
 
-/* Team Members - Centered Layout */
 .team-member {
   display: flex;
-  flex-direction: column;   /* Stack image and text vertically */
-  align-items: center;      /* Center items horizontally */
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -100,6 +101,10 @@ div {
   height: auto;
   margin-bottom: 10px;
   border-radius: 8px;
+}
+
+.member-info {
+  text-align: center;
 }
 
 .member-info h2 {
