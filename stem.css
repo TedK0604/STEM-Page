@@ -84,17 +84,22 @@ div {
   text-align: justify;
   text-justify: inter-word;
 }
+
+/* Team Members - Centered Layout */
 .team-member {
   display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+  flex-direction: column;   /* Stack image and text vertically */
+  align-items: center;      /* Center items horizontally */
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .team-member img {
-  width: 300px; !important;
-  height: auto; !important;
-  margin-right: 20px;
-  border-radius: 8px; 
+  width: 250px;
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
 }
 
 .member-info h2 {
@@ -107,7 +112,7 @@ div {
   font-size: 1em;
 }
 
-
+/* Mobile Navigation */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -115,5 +120,9 @@ div {
 
   nav ul li {
     margin: 0.5rem 0;
+  }
+
+  .team-member {
+    padding: 0 1rem;
   }
 }
