@@ -91,10 +91,10 @@ div {
 }
 
 .team-member img {
-  width: 300px;
-  height: auto;
+  width: 300px; !important;
+  height: auto; !important;
   margin-right: 20px;
-  border-radius: 8px; /* Optional: adds rounded corners to images */
+  border-radius: 8px; 
 }
 
 .member-info h2 {
