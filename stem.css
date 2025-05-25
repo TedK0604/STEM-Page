@@ -107,6 +107,69 @@ div {
   font-size: 1em;
 }
 
+/* Carousel Styles (index) */
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.carousel::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 220px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  scroll-snap-align: start;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  color: #007acc;
+}
+
+.card p {
+  font-size: 0.95em;
+  color: #555;
+}
+
+.card a {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  text-decoration: none;
+  background: #007acc;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.9em;
+}
+
+.card a:hover {
+  background: #005fa3;
+}
 
 @media (max-width: 768px) {
   nav ul {
